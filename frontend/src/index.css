@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+/* ===== Tema personalizado (colores estilo Airbnb) ===== */
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --color-primary: #FF385C;
+  --color-primary-dark: #E31C5F;
+  --color-primary-light: #FF5A7D;
+}
+
+/* ===== Estilos base globales ===== */
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  color: #222222;
+  background-color: #ffffff;
+}
+
+/* ===== Scrollbar personalizada ===== */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a1a1a1;
+}
